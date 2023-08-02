@@ -6,28 +6,32 @@ color:
 #B4FAE3
 #ADD1FF
 */
+@import url('https://fonts.googleapis.com/css2? family= Faster+One & family= Modak & family= Rubik+Spray+Paint & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Faster+One & family= Rubik+Spray+Paint & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patua+One&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Yeseva+One&display=swap');
 
 :root {
- --cor1: #067302;
- --cor3: #F2B705;
- --cor4: #09A603;
- --cor5: #049DD9;
- --cor6: #0487D9;
- --cor7: #FFFFFF;
- --cor8: #CEF7FA;
- --fonte1: font-family: 'Bebas Neue', sans-serif;
- font-family: 'Patua One', cursive 'Roboto Condensed', sans-serif 'Yeseva One', cursive;
- --fonte2:
+    --cor1: #067302;
+    --cor3: #F2B705;
+    --cor4: #09A603;
+    --cor5: #049DD9;
+    --cor6: #0487D9;
+    --cor7: #FFFFFF;
+    --cor8: #CEF7FA;
+    --fonte1: font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Patua One', cursive 'Roboto Condensed', sans-serif 'Yeseva One', cursive;
+    --fonte2:
 }
-body{
+
+body {
     background-color: var(--cor8);
 }
 
-.e{
+.e {
     font-family: var(--fonte1);
 }
-.menu{
+
+.menu {
     width: 95%;
     list-style-type: none;
     margin: 0;
@@ -39,14 +43,16 @@ body{
     border-radius: 5px;
     color: var(--cor4);
 }
+
 .escolha1 {
     margin: 0;
     display: grid;
     place-content: center;
     background-color: var(--cor5);
     width: 100%;
-    height: 130px;
+    height: 200px;
 }
+
 .task {
     padding-left: 0;
     font-size: 65px;
@@ -55,9 +61,12 @@ body{
     background-color: var(--cor7);
     background-clip: text;
     -webkit-background-clip: text;
-    font-family: 'Bree', sans-serif;
+    font-family: 'Faster One', cursive;
+    font-family: 'Modak', cursive;
+    font-family: 'Rubik Spray Paint', cursive;
     color: transparent;
 }
+
 .A2 {
     float: right;
 }
@@ -73,8 +82,8 @@ body{
 }
 
 .A2 .A3:hover {
-   background-color: #F2EEAC;
-} 
+    background-color: #F2EEAC;
+}
 
 
 .container {
@@ -85,9 +94,10 @@ body{
     width: 100%;
     height: 100vh;
 }
-.banner{
+
+.banner {
+    margin-top: 9px;
     padding-left: 400px;
     width: 1000px;
     height: 500px;
 }
-
