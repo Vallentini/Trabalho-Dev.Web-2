@@ -158,22 +158,20 @@ color:
 }
 
 #handebol {
-    padding-left: 0px;
-    width: 600px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 800px;
     height: 400px;
     display: inline-block;
     border-radius: 15px;
     background-image: url("Imagens/noticias/handebol.webp");
     text-decoration: none;
-    padding-right: 100px;
 }
 #propa1 {
-    padding-left: 0px;
     width: 200px;
     height: 400px;
     display: inline-block;
-    border-radius: 15px;
     background-image: url("Imagens/propagandas/coca.jpeg");
+    background-size: 200px 400px;
     text-decoration: none;
-    padding-right: 100px;
 }
